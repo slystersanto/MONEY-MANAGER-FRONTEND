@@ -1,0 +1,262 @@
+
+
+
+
+
+.add-btn-home {
+  position:absolute;;
+  
+  bottom:80%;
+  left:50%;
+  transform:translate(-40%,-40%);
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  height: 45px;
+  width: 250px;
+}
+
+
+.container {
+  position:relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* sets the height of the container to the full viewport height */
+  padding: 0;
+  margin: 0;
+}
+
+
+.btn-expense{
+  background-color: red;
+}
+
+/* Modal Styling */
+.Modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Modal Content Styling */
+/* .modal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid rgb(148, 13, 13);
+  width: 30%;
+  max-width: 600px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #ccc;
+} */
+
+/* Close Button Styling */
+/* .close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  position:relative;
+  
+} */
+
+/* .close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+} */
+
+/* Form Styling */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  max-width: 500px;
+
+}
+
+.form-container label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-container input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-container input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.btn-income {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 5px 0 0 5px;
+  cursor: pointer;
+}
+
+.btn-expense {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: -5px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+/* Modal Content Styling */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* center the modal on the page */
+  padding: 20px;
+  border: none;
+  width: 80%;
+  max-width: 600px; /* set a max-width for the modal */
+  box-shadow: 0px 0px 10px #888;
+}
+
+/* Form Styling */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+}
+
+.form-container label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container select {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f2f2f2;
+}
+
+.form-container input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.form-container input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.form-container .form-row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-container .form-row label {
+  width: 150px;
+  text-align: right;
+}
+
+.form-container .form-row .input-container {
+  flex-grow: 1;
+}
+
+.form-container .form-row .input-container input[type="text"],
+.form-container .form-row .input-container input[type="number"] {
+  width: 100%;
+}
+
+.container{
+  border:1px solid red;
+}
+.btn-close{
+  margin-left:10px;
+  height:38px;
+  width:65px;
+  border-radius:4px;
+  font-size:16px;
+  color:white;
+  background-color: #f44336;
+}
+.container {
+  font-size: 0; /* remove white space between inline-block elements */
+}
+
+.income-box, .expense-box {
+  display: inline-block;
+  vertical-align: top;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  margin-left:220px;
+  margin-top:225px;
+  
+}
+
+/* .income-box {
+  background-color: #e4eded;
+}
+
+.expense-box {
+  background-color: #e4eded;
+} */
+.income-box {
+  background-image: linear-gradient(to bottom, #ccf3f3, #75a043);
+}
+
+/* Gradient for the expense box */
+.expense-box {
+  background-image: linear-gradient(to bottom, #e89b9b, #e5e1d5);
+}

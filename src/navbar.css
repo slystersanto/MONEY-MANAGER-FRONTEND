@@ -1,0 +1,47 @@
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0 10px;
+  position: relative;
+}
+
+li:hover {
+  background-color: #555;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  padding: 10px;
+  width: 150px;
+}
+
+li:hover ul {
+  display: block;
+}
+
+li ul li {
+  margin: 5px 0;
+}
